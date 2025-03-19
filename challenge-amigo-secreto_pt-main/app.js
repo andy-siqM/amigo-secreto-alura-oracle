@@ -12,7 +12,7 @@ function adicionarAmigo() {
     } else if (!isNaN(nome)) {
         alert('Por favor, não insira números. Digite um nome válido!');
     } else if (amigos.includes(nome)) {
-        alert('Este nome já foi adicionado!');
+        alert('O nome do amigo já foi adicionado!');
     } else {
         alert('Por favor, digite um nome válido!');
     }
